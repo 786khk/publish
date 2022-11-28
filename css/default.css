@@ -16,7 +16,7 @@ footer{
 
 .headerWrapper {
     width: 100%;
-    display: flex;
+    display: block;
     /* text-align: center; */
 }
 
@@ -26,10 +26,16 @@ footer{
     justify-content: space-between;
 }
 
-.nav .textStart{
+.nav .floatLeft{
     float: left;
     text-align:start;
 }
+
+.bannerStrong{
+    width: 50%;
+    height: auto;
+}
+
 
 .nav .textEnd{
     float: right;
@@ -73,4 +79,9 @@ section{
     font-family: 'GmarketSansMedium';
     margin: 15px;
 
+}
+
+.smallLog{
+    width: 30px;
+    height: auto;
 }
