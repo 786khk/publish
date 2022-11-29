@@ -1,0 +1,52 @@
+.banner-main {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    margin-top: 0;
+}
+
+.banner-main > *{
+    position: absolute;
+    font-size: 5rem;
+    font-family: 'RixInooAriDuriR';
+        
+}
+
+.banner-main div{
+    margin-top: 200px;
+    display: flex;
+
+}
+.banner-main .firstItem{
+    color: rgb(247, 161, 3);
+    z-index: 1;
+    left:50%;
+    top: 50%;
+    transform: translate(-49.5%,-49%);
+
+}
+
+.banner-main .secondItem{
+    color: #fff;
+    z-index: 0;
+    left:50%;
+    top: 50%;
+    transform: translate(-49%,-45%);
+
+}
+
+.banner-main .thirdItem{
+    color: black;
+    z-index: -1;
+    left:50%;
+    top: 50%;
+    transform: translate(-48%,-43%);
+
+}
+
+.fsMoreBig{
+    font-size: 15rem;
+}
+.title > * :not(.banner-main >*){
+    z-index: -1;
+}
