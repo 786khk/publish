@@ -70,12 +70,26 @@ footer{
 section{
     margin: 10rem 40px;
 }
+.intro .introTitle{
+    display: flex;
+    justify-content: center;
+}
+
+
+.introTitle{
+    width: 100%;
+    max-width: 100%;
+}
 .introTitle h2{
     font-family: 'GmarketSansBold';
     font-size: 50px;
     margin-bottom: 2rem;
 }
 
+.introTitle div img{
+    width: 200px;
+    margin: 10px 50px;
+}
 .introTitle .item{
     
     font-family: 'GmarketSansMedium';
@@ -92,10 +106,10 @@ section{
     vertical-align: middle;
 }
 
-.slideFrame{
+.wrapper{
+    width: 100%;
 
 }
-
 #contents{
-    
+    width: 100%;
 }
